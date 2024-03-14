@@ -4,51 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="stylesheet" href="main.css"> -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <script>
         tailwind.config = {
-          theme: {
-            extends: {
-                colors:{
-                    notQuiteBlack: "#23272a",
-                    blurple: "#5865f2",
-                    black: "#060a0b",
-                    white: "white",
-                    darkCharcoal: "#2c2f33",
-                    darkButtonHover: "#3b3b3b",
-                    greyple: "#99aab5",
-                    springGreen: "#57f287",
-                    dimGrey: "#50555f",
-                    offWhite: "#f6f6f6",
-                    darkBlurple: "#3442d9",
-                    fuchsia: "#eb459e",
-                    yellow: "#fee75c",
-                    mintGreen: "#43b581",
-                    red: "#ed4245",
-                    ekkoRed: "#de2761",
-                    vividCerulean: "#00b0f4",
-                    orange: "#fda220",
-                    pink: "#ffcdee",
-                    buttonHover: "#8891f2",
-                    pinc2: "#dc4195",
-                    green: "#52f180",
-                    purple: "#808aff",
-                    navyBlue: "#24173f",
+            theme: {
+                extends: {
+                    colors: {
+                        notQuiteBlack: "#23272a",
+                        blurple: "#5865f2",
+                        black: "#060a0b",
+                        brand: "#404eed",
+                        white: "white",
+                        darkCharcoal: "#2c2f33",
+                        darkButtonHover: "#3b3b3b",
+                        greyple: "#99aab5",
+                        springGreen: "#57f287",
+                        dimGrey: "#50555f",
+                        offWhite: "#f6f6f6",
+                        darkBlurple: "#3442d9",
+                        fuchsia: "#eb459e",
+                        yellow: "#fee75c",
+                        mintGreen: "#43b581",
+                        red: "#ed4245",
+                        ekkoRed: "#de2761",
+                        vividCerulean: "#00b0f4",
+                        orange: "#fda220",
+                        pink: "#ffcdee",
+                        buttonHover: "#8891f2",
+                        pinc2: "#dc4195",
+                        green: "#52f180",
+                        purple: "#808aff",
+                        navyBlue: "#24173f",
+                    },
                 },
-            },
-          }
+            }
         }
-      </script>
-            <style type="text/tailwindcss">
-                @layer utilities {
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
                   .content-auto {
                     content-visibility: auto;
                   }
                 }
-              </style>
+    </style>
     <title>Discord Clone</title>
-    
+
 </head>
 
 <body>
@@ -58,7 +59,8 @@
         <section class="hero-section w-full h-full">
 
             <!-- nav bar -->
-            <div class="w-[100%] flex h-[80px] justify-around items-center  bg-brand px-12 max-lg:justify-between max-lg:sticky">
+            <div
+                class="w-[100%] flex h-[80px] justify-around items-center  bg-brand px-12 max-lg:justify-between max-lg:sticky">
                 <!-- icon -->
                 <img src="./images/DiscordIcon.svg" alt="" loading="lazy" class="w-[124px] h-[34px] self-center">
                 <!-- navigation -->
@@ -98,18 +100,26 @@
             <!-- hero section -->
             <section class="w-full bg-brand">
                 <div class="mx-auto max-w-[1260px] px-10 relative max-lg:flex flex-col max-md:px-6">
-                   
-                    <!-- main content -->
-                    <div class="flex flex-col space-y-8 pt-[100px] pb-[140px] mx-auto justify-center items-center max-lg:pb-0 max-lg:items-start max-md:items-center max-md:pt-[80px] max-md:space-y-4 max-sm:items-start max-sm:space-y-3 max-sm:pt-[40px]">
 
-                        <h1 class="text-white text-center font-extrabold text-[4rem] max-md:text-[3rem] max-sm:text-[2rem]" >IMAGINE A PLACE...</h1>
-                        <p class="text-white max-w-[780px] text-center self-center text-xl max-md:text-[1rem] max-lg:text-start">...where you can belong to a school club, a gaming group, or a worldwide art community. Where
+                    <!-- main content -->
+                    <div
+                        class="flex flex-col space-y-8 pt-[100px] pb-[140px] mx-auto justify-center items-center max-lg:pb-0 max-lg:items-start max-md:items-center max-md:pt-[80px] max-md:space-y-4 max-sm:items-start max-sm:space-y-3 max-sm:pt-[40px]">
+
+                        <h1
+                            class="text-white text-center font-extrabold text-[4rem] max-md:text-[3rem] max-sm:text-[2rem]">
+                            IMAGINE A PLACE...</h1>
+                        <p
+                            class="text-white max-w-[780px] text-center self-center text-xl max-md:text-[1rem] max-lg:text-start">
+                            ...where you can belong to a school club, a gaming group, or a worldwide art community.
+                            Where
                             just you and a handful of friends can spend time together. A place that makes it easy to
                             talk every day and hang out more often.
                         </p>
                         <!--buttons -->
-                        <div class="flex justify-center space-x-6 items-center max-sm:flex-col max-sm:space-y-4 max-sm:space-x-0">
-                            <button class="flex bg-white text-black rounded-full py-3 px-6 font-semibold text-lg transition-all duration-200 hover:drop-shadow-xl hover:text-blurple space-x-2">
+                        <div
+                            class="flex justify-center space-x-6 items-center max-sm:flex-col max-sm:space-y-4 max-sm:space-x-0">
+                            <button
+                                class="flex bg-white text-black rounded-full py-3 px-6 font-semibold text-lg transition-all duration-200 hover:drop-shadow-xl hover:text-blurple space-x-2">
                                 <svg width="24" height="24" viewBox="0 0 24 24" class="icon-2tQ9Jt">
                                     <g fill="currentColor">
                                         <path
@@ -120,15 +130,19 @@
                                         </path>
                                     </g>
                                 </svg>
-                                
+
                                 <a href="">Download for Windows</a>
                             </button>
-                            <button class=" bg-black text-white rounded-full py-3 px-6 font-semibold text-lg transition-all duration-200 hover:drop-shadow-xl space-x-2">Open Discord in web browser</button>
+                            <button
+                                class=" bg-black text-white rounded-full py-3 px-6 font-semibold text-lg transition-all duration-200 hover:drop-shadow-xl space-x-2">Open
+                                Discord in web browser</button>
                         </div>
 
                     </div>
-                    <img src="./images/hero-sec2.svg" alt="" class="absolute -left-[35%] bottom-0 max-lg:relative max-lg:-left-[10%] max-lg:bottom-0 mx-auto">
-                    <img src="./images/hero-sec3.svg" alt="" class="absolute -right-[25%] bottom-0 max-lg:relative max-lg:w-0">
+                    <img src="./images/hero-sec2.svg" alt=""
+                        class="absolute -left-[35%] bottom-0 max-lg:relative max-lg:-left-[10%] max-lg:bottom-0 mx-auto">
+                    <img src="./images/hero-sec3.svg" alt=""
+                        class="absolute -right-[25%] bottom-0 max-lg:relative max-lg:w-0">
 
                 </div>
             </section>
@@ -140,50 +154,65 @@
             <section class="bg-white mx-auto">
 
                 <div class="w-10/12 flex py-32  justify-between mx-auto max-lg:flex-col max-lg:py-14 sm:space-y-8">
-                    <img src="./images/aboutSecCartoon2.svg" alt="" class="max-lg:w-full transition-all duration-200" loading="lazy" >
-                   <div class="flex justify-center items-start flex-col space-y-6 w-96 max-lg:w-full max-lg:space-y-4 max-lg:items-center">
-                       <h1 class="text-black font-bold text-[3rem] leading-[3rem] max-lg:text-[2rem] max-lg:leading-[2rem]">Create an invite-only place where you belong</h1>
-                       <p class="text-[1.2rem] text-notQuiteBlack max-lg:text-[1rem]">
-                        Discord servers are organised into topic-based channels where you can collaborate, share and just talk about your day without clogging up a group chat.
-                       </p>
-                   </div>
+                    <img src="./images/aboutSecCartoon2.svg" alt="" class="max-lg:w-full transition-all duration-200"
+                        loading="lazy">
+                    <div
+                        class="flex justify-center items-start flex-col space-y-6 w-96 max-lg:w-full max-lg:space-y-4 max-lg:items-center">
+                        <h1
+                            class="text-black font-bold text-[3rem] leading-[3rem] max-lg:text-[2rem] max-lg:leading-[2rem]">
+                            Create an invite-only place where you belong</h1>
+                        <p class="text-[1.2rem] text-notQuiteBlack max-lg:text-[1rem]">
+                            Discord servers are organised into topic-based channels where you can collaborate, share and
+                            just talk about your day without clogging up a group chat.
+                        </p>
+                    </div>
                 </div>
-           </section>
+            </section>
             <!-- sub section2 -->
             <section class="bg-[#f6f6f6] mx-auto">
 
                 <div class="w-10/12 flex py-32 justify-between mx-auto max-lg:flex-col-reverse max-lg:py-14 ">
-                   <div class="flex justify-center items-start flex-col space-y-6 w-96 max-lg:w-full max-lg:space-y-4 max-lg:items-center">
-                       <h1 class="text-black font-bold text-[3rem] leading-[3rem] max-lg:text-[2rem] max-lg:leading-[2rem] sm:pt-8 max-lg:text-start" >Where hanging out is easy</h1>
-                       <p class="text-[1.2rem] text-notQuiteBlack max-lg:text-[1rem]">
-                        Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.
-                       </p>
-                   </div>
-                   <img src="./images/aboutSecCartoon1.svg" alt="" class="w-[580px] mx-auto max-lg:w-full">
+                    <div
+                        class="flex justify-center items-start flex-col space-y-6 w-96 max-lg:w-full max-lg:space-y-4 max-lg:items-center">
+                        <h1
+                            class="text-black font-bold text-[3rem] leading-[3rem] max-lg:text-[2rem] max-lg:leading-[2rem] sm:pt-8 max-lg:text-start">
+                            Where hanging out is easy</h1>
+                        <p class="text-[1.2rem] text-notQuiteBlack max-lg:text-[1rem]">
+                            Grab a seat in a voice channel when you’re free. Friends in your server can see you’re
+                            around and instantly pop in to talk without having to call.
+                        </p>
+                    </div>
+                    <img src="./images/aboutSecCartoon1.svg" alt="" class="w-[580px] mx-auto max-lg:w-full">
                 </div>
-           </section>
-           
-            <!-- sub section3 -->
-           <section class="bg-white mx-auto">
+            </section>
 
-            <div class="w-10/12 flex py-32 justify-between mx-auto max-lg:flex-col max-lg:py-14 sm:space-y-8">
-                <img src="./images/aboutSecCartoon3.svg" alt="" class="w-[580px] mx-auto max-lg:w-full">
-               <div class="flex justify-center items-start flex-col space-y-6 w-96 max-lg:w-full max-lg:space-y-4 max-lg:items-center">
-                   <h1 class="text-black font-bold text-[3rem] leading-[3rem] max-lg:text-[2rem] max-lg:leading-[2rem] max-lg:text-start">From few to a fandom</h1>
-                   <p class="text-[1.2rem] text-notQuiteBlack max-lg:text-[1rem]">
-                    Get any community running with moderation tools and custom member access. Give members special powers, set up private channels and more.
-                   </p>
-               </div>
-            </div>
-       </section>
+            <!-- sub section3 -->
+            <section class="bg-white mx-auto">
+
+                <div class="w-10/12 flex py-32 justify-between mx-auto max-lg:flex-col max-lg:py-14 sm:space-y-8">
+                    <img src="./images/aboutSecCartoon3.svg" alt="" class="w-[580px] mx-auto max-lg:w-full">
+                    <div
+                        class="flex justify-center items-start flex-col space-y-6 w-96 max-lg:w-full max-lg:space-y-4 max-lg:items-center">
+                        <h1
+                            class="text-black font-bold text-[3rem] leading-[3rem] max-lg:text-[2rem] max-lg:leading-[2rem] max-lg:text-start">
+                            From few to a fandom</h1>
+                        <p class="text-[1.2rem] text-notQuiteBlack max-lg:text-[1rem]">
+                            Get any community running with moderation tools and custom member access. Give members
+                            special powers, set up private channels and more.
+                        </p>
+                    </div>
+                </div>
+            </section>
         </section>
         <!-- download -->
         <section class="p-10 py-32 bg-[#f6f6f6] space-y-6 max-lg:p-9 mx-auto">
-            <h1 class="text-black text-center leading-[3.5rem] font-extrabold max-sm:leading-9 text-[4rem] max-md:text-[3rem] max-sm:text-[2rem]">
+            <h1
+                class="text-black text-center leading-[3.5rem] font-extrabold max-sm:leading-9 text-[4rem] max-md:text-[3rem] max-sm:text-[2rem]">
                 RELIABLE TECH FOR STAYING CLOSE
             </h1>
             <p class="text-black mx-auto max-w-[780px] text-center self-center text-xl max-md:text-[1rem]">
-                Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
+                Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends
+                stream their games, or gather up and have a drawing session with screen share.</p>
             <img src="./images/aboutSecCartoon4.svg" alt="" class="mx-auto">
         </section>
 
@@ -192,45 +221,45 @@
 
             <div class="w-11/12 mx-auto grid grid-cols-2 justify-between max-lg:flex">
                 <!-- sm -->
-                
-                    <ul class="flex space-x-4 items-center mt-4">
-                        <li class="cursor-pointer">
-                          <a>
+
+                <ul class="flex space-x-4 items-center mt-4">
+                    <li class="cursor-pointer">
+                        <a>
                             <img src="/images/facebook-icon-2b65a866.svg" width="24" height="24" loading="lazy">
-                          </a>
-                        </li>
-                        <li class="cursor-pointer">
-                          <a>
+                        </a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a>
                             <img src="/images/twitter-icon-82cbd3e5.svg" width="24" height="24" loading="lazy">
-                          </a>
-                        </li>
-                        <li class="cursor-pointer">
-                          <a>
+                        </a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a>
                             <img src="/images/instagram-icon-6c2b0c16.svg" width="24" height="24" loading="lazy">
-                          </a>
-                        </li>
-                        <li class="cursor-pointer">
-                          <a>
+                        </a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a>
                             <img src="/images/github-icon-e2d5f6a2.svg" width="24" height="24" loading="lazy">
-                          </a>
-                        </li>
-                        <li class="cursor-pointer">
-                          <a>
+                        </a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a>
                             <img src="/images/linkedin-icon-5471e826.svg" width="24" height="24" loading="lazy">
-                          </a>
-                        </li>
-                      </ul>
-            
+                        </a>
+                    </li>
+                </ul>
+
                 <!-- links -->
                 <div class="grid grid-cols-4 justify-between max-lg:flex flex-wrap space-x-7">
                     <div class="space-y-5">
-                    <h1 class="text-blurple">Products</h1>
-                    <ul class="text-white flex flex-col space-y-3">
-                        <li class="hover:underline"> DownloadDownload</li>
-                        <li class="hover:underline">Download</li>
-                        <li class="hover:underline">Download</li>
-                        <li class="hover:underline">Download</li>
-                    </ul>
+                        <h1 class="text-blurple">Products</h1>
+                        <ul class="text-white flex flex-col space-y-3">
+                            <li class="hover:underline"> DownloadDownload</li>
+                            <li class="hover:underline">Download</li>
+                            <li class="hover:underline">Download</li>
+                            <li class="hover:underline">Download</li>
+                        </ul>
                     </div>
                     <div class="space-y-5">
                         <h1 class="text-blurple">Products</h1>
@@ -240,36 +269,36 @@
                             <li class="hover:underline">Download</li>
                             <li class="hover:underline">Download</li>
                         </ul>
-                        </div>
-                        <div class="space-y-5">
-                            <h1 class="text-blurple">Products</h1>
-                            <ul class="text-white flex flex-col space-y-3">
-                                <li class="hover:underline">Download</li>
-                                <li class="hover:underline">Download</li>
-                                <li class="hover:underline">Download</li>
-                                <li class="hover:underline">Download</li>
-                            </ul>
-                            </div>
-                            <div class="space-y-5">
-                                <h1 class="text-blurple">Products</h1>
-                                <ul class="text-white flex flex-col space-y-3">
-                                    <li class="hover:underline">Download</li>
-                                    <li class="hover:underline">Download</li>
-                                    <li class="hover:underline">Download</li>
-                                    <li class="hover:underline">Download</li>
-                                </ul>
-                                </div>
+                    </div>
+                    <div class="space-y-5">
+                        <h1 class="text-blurple">Products</h1>
+                        <ul class="text-white flex flex-col space-y-3">
+                            <li class="hover:underline">Download</li>
+                            <li class="hover:underline">Download</li>
+                            <li class="hover:underline">Download</li>
+                            <li class="hover:underline">Download</li>
+                        </ul>
+                    </div>
+                    <div class="space-y-5">
+                        <h1 class="text-blurple">Products</h1>
+                        <ul class="text-white flex flex-col space-y-3">
+                            <li class="hover:underline">Download</li>
+                            <li class="hover:underline">Download</li>
+                            <li class="hover:underline">Download</li>
+                            <li class="hover:underline">Download</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="h-[0.5px] bg-blurple mx-auto"></div>
-            <div class="flex justify-between"> 
+            <div class="flex justify-between">
                 <img src="./images/DiscordIcon.svg" alt="" loading="lazy" class="w-[124px] h-[34px] self-center">
-            <button
-            class="bg-darkBlurple text-white rounded-3xl py-2 px-3 font-semibold text-sm transition-all duration-200 hover:drop-shadow-xl hover:bg-blurple">
-            <a href="">
-               Sign Up
-            </a>
-        </button>
+                <button
+                    class="bg-darkBlurple text-white rounded-3xl py-2 px-3 font-semibold text-sm transition-all duration-200 hover:drop-shadow-xl hover:bg-blurple">
+                    <a href="">
+                        Sign Up
+                    </a>
+                </button>
             </div>
 
         </section>
